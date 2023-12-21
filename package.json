@@ -4,12 +4,13 @@
   "description": "Express server to retireve stock data from IEX API.",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.6",
     "request": "^2.88.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
